@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0em;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(niconne.regular.ttf);
+}
+  
+.img_container{
+    border: none;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* ------------------------ */
+
+.text_section{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 537px;
+    border: 1px solid blueviolet;
+    
+}
+
+h2{
+    margin-top: 90px;
+    font-family: myFirstFont;
+}
+
